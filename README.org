@@ -1,0 +1,18 @@
+#+TITLE: Tutorial de AngularJS con yeoman
+#+AUTHOR: José Miguel Martínez Carrasco
+
+* Introducción
+* Requisitos
+* Instrucciones
+
+#+BEGIN_SRC bash
+mkdir yo-angularjs-tutorial
+cd yo-angularjs-tutorial
+yo angular
+bower install angular-bootstrap --save
+grunt serve
+#+END_SRC
+
+* Bibliografía
+
+- [[http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/][Kickstart Your AngularJS Development with Yeoman, Grunt and Bower]]
