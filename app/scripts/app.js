@@ -13,6 +13,10 @@ angular.module('yoAngularjsTutorialApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/#/todo', {
+        templateUrl: 'views/todo.html',
+        controller: 'TodoController'
+      })
       .otherwise({
         redirectTo: '/'
       });

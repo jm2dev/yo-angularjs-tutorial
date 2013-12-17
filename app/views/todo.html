@@ -1,0 +1,23 @@
+      <div class="container center-grey" ng-controller="TodoController">
+        <div class="row top-buffer" >
+          <span class="col-md-3"></span>
+          <span class="col-md-5">
+            <input class="form-control" type="text" ng-model="note" placeholder="Add a note here"/>
+          </span>
+          <span class="col-md-1">
+            <button ng-click="createNote()" class="btn btn-success">Add</button>
+          </span>
+          <span class="col-md-3"></span>
+        </div>
+        <div class="row top-buffer" >
+          <span class="col-md-3"></span>
+          <span class="col-md-6">
+            <ul class="list-group">
+              <li ng-repeat="note in notes track by $index" class="list-group-item">
+                <span>{{note}}</span>
+              </li>
+            </ul>
+          </span>
+          <span class="col-md-3"></span>
+        </div>
+      </div>

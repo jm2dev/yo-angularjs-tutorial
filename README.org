@@ -16,3 +16,4 @@ grunt serve
 * Bibliografía
 
 - [[http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/][Kickstart Your AngularJS Development with Yeoman, Grunt and Bower]]
+- [[http://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/][Unit and E2E testing in AngularJS]]
