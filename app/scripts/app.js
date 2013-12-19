@@ -9,15 +9,15 @@ angular.module('yoAngularjsTutorialApp', [
 ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      .when('/home', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/#/todo', {
+      .when('/todo', {
         templateUrl: 'views/todo.html',
         controller: 'TodoController'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
       });
   });

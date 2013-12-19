@@ -38,4 +38,12 @@ angular.module('yoAngularjsTutorialApp')
     return function(input,length) {
       return (input.length > length ? input.substring(0, length) : input );
     };
+  })
+  .directive('customColor', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, elem, attrs) {
+        elem.css({'background-color': attrs.customColor});
+      }
+    };
   });
